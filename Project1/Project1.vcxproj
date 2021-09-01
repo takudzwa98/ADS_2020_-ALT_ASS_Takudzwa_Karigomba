@@ -139,11 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="FilterByNode.h" />
+    <ClInclude Include="InputfromFileNode.h" />
+    <ClInclude Include="OutputToFileNode.h" />
+    <ClInclude Include="SortByNode.h" />
+    <ClInclude Include="WWW.h" />
     <ClInclude Include="TimeUtility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ADS_Support.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
