@@ -21,18 +21,6 @@
     <ClInclude Include="WWW.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputfromFileNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FilterByNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SortByNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="OutputToFileNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ADS_Support.cpp">

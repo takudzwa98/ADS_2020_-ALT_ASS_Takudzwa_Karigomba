@@ -17,11 +17,22 @@ public:
 	string TempUnits;
 	string SpeedUnits;
 	int year, month, day, hour, minute, second;
+	//variables
 };
 
-
+//group region with vector 
 class groupByRegion {
 public:
 	string name;
 	vector<Wind> data;
+};
+
+class groupByRegionData {
+public:
+	void addData(groupByRegion& group)
+	{
+		data.push_back(group);
+		// push elements into the back
+	}
+	vector<groupByRegion> data;
 };

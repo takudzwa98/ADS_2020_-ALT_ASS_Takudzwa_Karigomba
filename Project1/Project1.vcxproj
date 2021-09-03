@@ -139,10 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="FilterByNode.h" />
-    <ClInclude Include="InputfromFileNode.h" />
-    <ClInclude Include="OutputToFileNode.h" />
-    <ClInclude Include="SortByNode.h" />
     <ClInclude Include="WWW.h" />
     <ClInclude Include="TimeUtility.h" />
   </ItemGroup>
