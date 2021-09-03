@@ -5,5 +5,5 @@ using namespace std;
 
 class Node {
 public:
-    virtual groupByRegionData& nodes(groupByRegionData& data);
+    virtual groupByRegionData& process(groupByRegionData& data);
 };
