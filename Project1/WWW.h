@@ -11,7 +11,7 @@ public:
 	float WindSpeed;
 	float MachineTemp;
 	int PeakPower;
-	int Status;
+	bool isActive;
 	string ID;
 	string Region;
 	string TempUnits;
@@ -33,7 +33,8 @@ public:
 	void addData(groupByRegion& group)
 	{
 		data.push_back(group);
-		// push elements into the back intqq vector
+		// push elements into the back into vector
 	}
 	vector<groupByRegion> data;
+	string src;
 };

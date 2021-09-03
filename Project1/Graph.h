@@ -13,10 +13,10 @@ public:
     {
         node.push_back(&nodes);
     }
-    void process(groupByRegionData& idata)
+    void process(groupByRegionData& gbrdata)
     {
         //initial data
-        groupByRegionData* data = &idata;
+        groupByRegionData* data = &gbrdata;
         for (int i = 0; i < node.size(); i++) {
            // data = (node.process(*data);
         }

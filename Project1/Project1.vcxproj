@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="InputFromFileNode1.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="WWW.h" />
     <ClInclude Include="TimeUtility.h" />

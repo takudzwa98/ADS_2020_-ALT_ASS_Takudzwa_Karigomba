@@ -3,7 +3,7 @@
 using namespace std;
 #include "WWW.h"
 
-class Node {
+struct Node {
 public:
     virtual groupByRegionData& process(groupByRegionData& data);
 };
