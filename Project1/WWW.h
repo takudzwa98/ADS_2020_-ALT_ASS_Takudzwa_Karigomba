@@ -3,8 +3,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
-
+/// @brief this code taken from lecture video explaining variables
 struct Wind {
 public:
 
